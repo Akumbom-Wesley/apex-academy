@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Final Project</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; background: #0073e6; color: white; padding: 15px; }
+    </style>
+</head>
+<body>
+
+<!-- TODO: Include header.php using PHP -->
+
+<div class="container">
+    <h2>PHP Final Project</h2>
+
+    <!-- TODO: Create a form to allow the user to enter their name -->
+    <form method="POST">
+        <label>Enter Your Name:</label>
+        <input type="text" name="username">
+        <input type="submit" value="Save Name">
+    </form>
+
+    <!-- TODO: Create a form to submit feedback and save it in a file -->
+    <form method="POST">
+        <label>Leave Feedback:</label>
+        <textarea name="feedback"></textarea>
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+    <!-- TODO: Read and display feedback from the file -->
+
+    <!-- TODO: Convert user data to JSON and display it -->
+    <form method="POST">
+        <input type="hidden" name="feedback" value="Sample feedback for JSON">
+        <input type="submit" name="convert_json" value="Convert to JSON">
+    </form>
+</div>
+
+<!-- TODO: Include footer.php using PHP -->
+
+</body>
+</html>
